@@ -1,0 +1,9 @@
+@mixin titulos-variables ($color-titulo, $tamanio-titulo) {
+    color: $color-titulo;
+    font-size: $tamanio-titulo;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+.titulos__ {
+    @include titulos-variables(#3a633f, 45px,)
+}

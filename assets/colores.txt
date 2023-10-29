@@ -1,0 +1,7 @@
+amarillo  #ffde59
+
+naranja  #ff9e4f
+
+verde claro #DCE1DE
+
+color letra #3a633f

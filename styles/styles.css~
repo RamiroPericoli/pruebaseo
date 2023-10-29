@@ -1,0 +1,286 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 140px;
+}
+header .logo__marca {
+  width: 300px;
+  height: 100px;
+  margin-left: 120px;
+}
+
+footer {
+  border-top: solid;
+}
+footer .footer__bottom {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+footer .redes__sociales__logo {
+  width: 50px;
+  height: 50px;
+}
+footer .redes-sociales {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+footer .texto-footer {
+  color: #3a633f;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: space-around;
+}
+
+.video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-style: solid;
+  flex-wrap: nowrap;
+  color: #9CC5A1;
+  margin: 0px 200px 0px 200px;
+}
+.video .video__fuente__h2 {
+  color: black;
+  font-weight: 300;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.video .video__inicio {
+  padding-bottom: 20px;
+  width: 1000px;
+  height: 400px;
+}
+
+.recetas__varias {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border: outset;
+  border-color: #3a633f;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.recetas__varias .cards__recetas__titulo__1 {
+  text-align: center;
+}
+.recetas__varias .cards__recetas__titulo__1 h2 {
+  color: #3a633f;
+  font-size: 25px;
+}
+.recetas__varias .cards__recetas__titulo__1 h2:hover {
+  text-decoration: underline;
+}
+.recetas__varias .cards__recetas__ingredientes__1 {
+  padding-right: 60px;
+}
+.recetas__varias .cards__recetas__ingredientes__1 h2 {
+  color: #3a633f;
+}
+.recetas__varias .cards__recetas__instrucciones__1 h2 {
+  color: #3a633f;
+}
+.recetas__varias .cards__recetas__ingredientes__1:hover {
+  background-color: #dff5e2;
+  padding-left: 25px;
+}
+.recetas__varias .cards__recetas__ingredientes__1:hover .listado {
+  white-space: pre-line;
+  font-weight: 500;
+}
+.recetas__varias .calendario {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 10px;
+  font-size: large;
+}
+.recetas__varias .calendario:hover {
+  background-color: #3a633f;
+  border: solid;
+}
+.recetas__varias .instrucciones__receta {
+  white-space: pre-line;
+}
+
+.titulo__planifica {
+  color: #3a633f;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: xxx-large;
+  text-align: center;
+}
+
+.momento__receta {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px 20px 50px;
+  margin: 20px;
+  text-align: center;
+}
+.momento__receta .card {
+  background-color: #9CC5A1;
+}
+.momento__receta .aceptar__receta:hover {
+  background-color: #3a633f;
+  border: solid;
+}
+.momento__receta .cambiar__receta:hover {
+  background-color: red;
+  border: solid;
+}
+.momento__receta h2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #3a633f;
+  font-size: x-large;
+}
+
+.card-body a {
+  color: white;
+  background-color: #3a633f;
+}
+
+.card img {
+  opacity: 30%;
+  width: auto;
+  height: 200px;
+}
+
+.titulo-nosotros {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: right;
+  font-weight: 100;
+  font-size: 70px;
+  color: #3a633f;
+  background-color: red;
+}
+
+.estilos-nosotros h2 {
+  font-family: "Times New Roman", Times, serif;
+  text-align: left;
+  font-weight: 500;
+  font-size: 50px;
+  color: #3a633f;
+}
+
+.estilos-nosotros p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  color: #3a633f;
+}
+
+.texto-map {
+  color: #3a633f;
+}
+
+.maps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-nosotros {
+  display: flex;
+  justify-content: center;
+}
+
+.foto-nosotros {
+  width: 600px;
+  height: 500px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #DCE1DE;
+}
+
+.titulo {
+  text-align: center;
+  color: #3a633f;
+  font-size: 45px;
+}
+
+.grid__recetas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 30px;
+  row-gap: 30px;
+  margin: 0 200px 0 200px;
+}
+.grid__recetas .grid__recetas__cards {
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  border: 2px solid;
+  background-color: #cad8ce;
+  border-style: groove;
+  border-radius: 5px;
+}
+.grid__recetas .grid__recetas__cards .grid__recetas__cards__img {
+  margin-top: 10px;
+  height: 200px;
+  width: 220px;
+  border-radius: 20px;
+}
+.grid__recetas .grid__recetas__cards__fuente__h2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #3a633f;
+  font-weight: 100;
+  font-style: oblique;
+}
+.grid__recetas .grid__recetas__cards__fuente__p {
+  font-weight: 200;
+}
+
+.estilos-nosotros {
+  margin-top: 135px;
+  border: solid;
+}
+
+.titulo-nosotros {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: right;
+  font-weight: 100;
+  font-size: 70px;
+  color: #3a633f;
+}
+
+.estilos-nosotros h2 {
+  font-family: "Times New Roman", Times, serif;
+  text-align: left;
+  font-weight: 500;
+  font-size: 50px;
+  color: #3a633f;
+}
+
+.estilos-nosotros p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  color: #3a633f;
+}
+
+.texto-map {
+  color: #3a633f;
+}
+
+.maps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-nosotros {
+  display: flex;
+  justify-content: center;
+}
+
+.foto-nosotros {
+  width: 600px;
+  height: 500px;
+}
+
+/*# sourceMappingURL=styles.css~.map */

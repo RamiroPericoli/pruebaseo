@@ -1,0 +1,49 @@
+.recetas__varias {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: outset;
+    border-color: #3a633f;
+    border-radius: 10px;
+    margin-top: 10px;
+    .cards__recetas__titulo__1 {
+        text-align: center;
+    
+        h2 {
+            color: #3a633f;
+            font-size: 25px;
+    }
+    &:hover {
+        text-decoration: underline;
+    }
+    }
+    .cards__recetas__ingredientes__1 {
+        padding-right: 60px;
+    
+        h2 {
+            color: #3a633f;
+        }
+        &:hover {
+            background-color: #dff5e2;
+            padding-left: 25px;
+        }
+    }
+    .cards__recetas__instrucciones__1 h2 {
+        color: #3a633f;
+    }
+    .listado {
+        white-space: pre-line;
+        font-weight: 500;
+    }
+    .calendario {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-top: 10px;
+        font-size: large;
+        &:hover {
+            background-color: #3a633f;
+            border: solid;
+        }
+    }
+    .instrucciones__receta {
+        white-space: pre-line;
+    }
+}

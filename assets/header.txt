@@ -1,0 +1,31 @@
+  <header class="logo-header border border-success-subtle">
+    <!--Logo de la página-->
+    <a class="logo-marca" href="./index.html"><img class="logo__marca" src="./assets/logo-marca.png"
+        alt="Logo-marca"></a>
+    <!--Menu navegable-->
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/recetas.html">Recetas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/planifica-tu-menu.html">Planifica tu menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+            </li>
+          </ul>
+          <form class="d-flex   " role="search">
+            <input class="form-control me-2 border border-black " type="search" placeholder="Que comemos hoy?"
+              aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>

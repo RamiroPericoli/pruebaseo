@@ -1,0 +1,23 @@
+footer {
+    border-top: solid;
+    .footer__bottom{
+        position: absolute;
+      bottom: 0;
+      width: 100%;
+    }
+    .redes__sociales__logo {
+        width: 50px;
+        height: 50px;
+    }
+    .redes-sociales {
+        display: flex;
+        justify-content:center;
+        padding-bottom: 10px;
+    }
+.texto-footer {
+    color: $color-fuente;
+    font-family: $estilo-fuente;
+    display: flex;
+    justify-content: space-around;
+}
+}

@@ -1,0 +1,54 @@
+@import "variables";
+@import "header"; 
+@import "footer";
+@import "video";
+@import "recetas";
+@import "planifica";
+@import "nosotros" ;
+@import "contacto";
+@import "mixins";
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #DCE1DE;
+}
+.titulo {
+    text-align: center;
+    color: #3a633f;
+    font-size: 45px;
+}
+.grid__recetas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 30px;
+    margin: 0 200px 0 200px;
+    .grid__recetas__cards {
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+        border: 2px solid;
+        background-color: #cad8ce;
+        border-style: groove;
+        border-radius: 5px;
+        .grid__recetas__cards__img {
+            margin-top: 10px;
+            height: 200px;
+            width: 220px;
+            border-radius: 20px;
+        }
+    }
+    .grid__recetas__cards__fuente__h2 {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: $color-fuente;
+        font-weight: 100;
+        font-style: oblique;
+    }
+    .grid__recetas__cards__fuente__p {
+        font-weight: 200;
+    }
+}

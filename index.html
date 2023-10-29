@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="¡Bienvenido a QueComemosHoy! Tu fuente para planificar comidas deliciosas y saludables. Encuentra inspiración en recetas increíbles, crea menús personalizados y mejora tu bienestar con nosotros">
+  <meta name="keywords" content="Planificación de comidas, Recetas saludables,Menús personalizados, Alimentación equilibrada">
+  <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="./styles/styles.css">
+  <title>QueComemosHoy</title>
+</head>
+
+<body>
+  <header class=" border border-success-subtle">
+    <!--Logo de la página-->
+    <a href="./index.html"><img class="logo__marca" src="./assets/logo-marca.png" alt="Logo-marca"></a>
+    <!--Menu navegable-->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/recetas.html">Recetas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/planifica-tu-menu.html">Planifica tu menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="QueComemosHoy" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <!--Titulo-->
+    <h1 class="titulo">Recetas destacadas</h1>
+    <!-- Buscador de recetas -->
+
+    <!-- recetas del inicio -->
+    <section>
+      <article class="grid__recetas">
+        <div class="grid__recetas__cards">
+          <a href="./pages/recetas.html"><img class="grid__recetas__cards__img" src="./assets/pollo-a-la-parmesana.jpg"
+              alt="pollo-a-la-parmesana"></a>
+          <h2 class="grid__recetas__cards__fuente__h2">Pollo a la Parmesana</h2>
+          <p class="grid__recetas__cards__fuente__p">Una deliciosa y reconfortante comida italiana con pollo empanizado,
+            salsa de tomate y queso
+            derretido, perfecta para una cena casera</p>
+        </div>
+        <div class="grid__recetas__cards">
+          <a href="./pages/recetas.html"><img class="grid__recetas__cards__img"
+              src="./assets/lomo-de-cerdo-al-horno-con-hierbas.jpg" alt="lomo-de-cerdo-al-horno-con-hierbas"></a>
+          <h2 class="grid__recetas__cards__fuente__h2">Lomo de Cerdo al Horno con Hierbas</h2>
+          <p class="grid__recetas__cards__fuente__p">Un plato de cerdo jugoso y aromático, cocinado con hierbas frescas
+            y aceite de oliva, que ofrece
+            un sabor excepcional.</p>
+        </div>
+        <div class="grid__recetas__cards">
+          <a href="./pages/recetas.html"> <img class="grid__recetas__cards__img" src="./assets/tarta-de-manzana.jpg"
+              alt="tarta-de-manzana"></a>
+          <h2 class="grid__recetas__cards__fuente__h2">Tarta de Manzana</h2>
+          <p class="grid__recetas__cards__fuente__p">Un postre clásico con una base de masa crujiente, manzanas tiernas
+            y una capa dulce de canela y
+            azúcar.</p>
+        </div>
+        <div class="grid__recetas__cards">
+          <a href="./pages/recetas.html"> <img class="grid__recetas__cards__img"
+              src="./assets/brownies-de-chocolate.jpg" alt="brownies-de-chocolate"></a>
+          <h2 class="grid__recetas__cards__fuente__h2">Brownies de Chocolate</h2>
+          <p class="grid__recetas__cards__fuente__p">Un placer indulgente de chocolate con un interior suave y
+            decadente, ideal para los amantes del
+            cacao.</p>
+        </div>
+        <div class="grid__recetas__cards">
+          <a href="./pages/recetas.html"> <img class="grid__recetas__cards__img"
+              src="./assets/Ensalada-César-con-Pollo-a-la-Parrilla.jpg"
+              alt="Ensalada-César-con-Pollo-a-la-Parrilla"></a>
+          <h2 class="grid__recetas__cards__fuente__h2">Ensalada César con Pollo a la Parrilla</h2>
+          <p class="grid__recetas__cards__fuente__p">Una ensalada fresca y satisfactoria con pechuga de pollo a la
+            parrilla, crutones crujientes, queso
+            parmesano rallado y aderezo césar cremoso.</p>
+        </div>
+        <div class="grid__recetas__cards">
+          <a href="./pages/recetas.html"> <img class="grid__recetas__cards__img" src="./assets/Tacos-de-Carne-Asada.jpg"
+              alt="Tacos-de-Carne-Asada"></a>
+          <h2 class="grid__recetas__cards__fuente__h2">Tacos de Carne Asada</h2>
+          <p class="grid__recetas__cards__fuente__p">Tacos tradicionales de la cocina mexicana, con tierna carne asada a
+            la parrilla, cebolla caramelizada,
+            cilantro fresco y salsa picante, servidos en tortillas de maíz calientes.</p>
+        </div>
+        <div class="grid__recetas__cards">
+          <a href="./pages/recetas.html"> <img class="grid__recetas__cards__img" src="./assets/Salmón-a-la-Parrilla.jpg"
+              alt="Salmón-a-la-Parrilla"></a>
+          <h2 class="grid__recetas__cards__fuente__h2">Salmón a la Parrilla con Salsa de Mantequilla de Limón</h2>
+          <p class="grid__recetas__cards__fuente__p">Salmón fresco a la parrilla con una salsa de mantequilla y limón,
+            una combinación perfecta de sabores
+            frescos y sutiles.</p>
+        </div>
+        <div class="grid__recetas__cards">
+          <a href="./pages/recetas.html"> <img class="grid__recetas__cards__img"
+              src="./assets/Pastel-de-Chocolate-Triple-Capa.jpg" alt="Pastel-de-Chocolate-Triple-Capa"></a>
+          <h2 class="grid__recetas__cards__fuente__h2">Pastel de Chocolate Triple Capa</h2>
+          <p class="grid__recetas__cards__fuente__p"> Un postre impresionante que presenta tres capas de bizcocho de
+            chocolate esponjoso, relleno de ganache de
+            chocolate y cubierto con glaseado de chocolate indulgente.</p>
+        </div>
+      </article>
+    </section>
+    <!-- Video -->
+    <section class="video">
+      <h2 class="video__fuente__h2">Video destacado de la semana</h2>
+      <iframe class="video__inicio" src="https://www.youtube.com/embed/VglM0C55oZ0?si=Nmuk68z9RBM6lJe3"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    </section>
+  </main>
+  <footer>
+    <!--Estilo footer-->
+    <div class="texto-footer">
+      <p>Todos los derechos reservados</p>
+      <p>Aviso de privacidad</p>
+      <p>Terminos y condiciones</p>
+    </div>
+    <div class="redes-sociales">
+      <img class="redes__sociales__logo" src="./assets/logo-instagram.PNG" alt="logo-instagram"><img
+        class="redes__sociales__logo" src="./assets/logo-facebook.png" alt="logo-facebook"><img
+        class="redes__sociales__logo" src="./assets/logo-twitter.png" alt="logo-twitter">
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

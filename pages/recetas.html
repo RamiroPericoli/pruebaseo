@@ -14,21 +14,18 @@
 </head>
 
 <body>
-  <header class="logo-header border border-success-subtle">
-    <!--Logo de la página-->
-    <a class="logo-marca" href="../index.html"><img class="logo__marca" src="../assets/logo-marca.png"
-        alt="Logo-marca"></a>
-    <!--Menu navegable-->
+  <header class=" border border-success-subtle">
     <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+      <div class="container">
+          <a class="navbar-brand" href="../index.html">
+            <img class="logo__marca" src="../assets/logo-marca.png" alt="logo-marca" height="80" width="300">
+          </a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mi-menu">
+          <span class="navbar-toggler-icon">
+          </span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-            </li>
+        <div class="collapse navbar-collapse" id="mi-menu">
+          <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link" href="../pages/recetas.html">Recetas</a>
             </li>
@@ -42,10 +39,6 @@
               <a class="nav-link" href="../pages/contacto.html">Contacto</a>
             </li>
           </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="QueComemosHoy" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Buscar</button>
-          </form>
         </div>
       </div>
     </nav>
@@ -55,7 +48,7 @@
     <h1 class="titulos__">Recetas</h1>
     <!--contenido pagina de recetas-->
     <section class="container">
-      <article>
+      <article class="recetas__article">
         <div class="recetas__varias">
           <div class="cards__recetas__titulo__1">
             <h2>Pollo a la Parmesana</h2>

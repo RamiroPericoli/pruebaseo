@@ -13,21 +13,18 @@
 </head>
 
 <body>
-  <header class="logo-header border border-success-subtle">
-    <!--Logo de la página-->
-    <a class="logo-marca" href="../index.html"><img class="logo__marca" src="../assets/logo-marca.png"
-        alt="Logo-marca"></a>
-    <!--Menu navegable-->
+  <header class=" border border-success-subtle">
     <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+      <div class="container">
+          <a class="navbar-brand" href="../index.html">
+            <img class="logo__marca" src="../assets/logo-marca.png" alt="logo-marca" height="80" width="300">
+          </a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mi-menu">
+          <span class="navbar-toggler-icon">
+          </span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-            </li>
+        <div class="collapse navbar-collapse" id="mi-menu">
+          <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link" href="../pages/recetas.html">Recetas</a>
             </li>
@@ -41,10 +38,6 @@
               <a class="nav-link" href="../pages/contacto.html">Contacto</a>
             </li>
           </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="QueComemosHoy" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Buscar</button>
-          </form>
         </div>
       </div>
     </nav>
@@ -55,7 +48,7 @@
       Algo mas sobre nosotros
     </h1>
     <div class="main-nosotros">
-      <div>
+      <div class="centrar-img">
         <img class="foto-nosotros" src="../assets/nosotros.jpg" alt="foto-nosotros">
       </div>
       <div class="estilos-nosotros">
@@ -66,9 +59,9 @@
       </div>
       <section class="maps">
         <h2 class="texto-map">Donde estamos</h2>
-        <iframe
+        <iframe class="tamanio__maps"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1952.7384861023536!2d-58.37525189839794!3d-34.601592639875896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaccf4a5be6f%3A0x97ebb6aac5198f6c!2sCoderhouse!5e0!3m2!1ses-419!2sar!4v1694892396430!5m2!1ses-419!2sar"
-          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+         style="border:0;" allowfullscreen="" loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"></iframe>
       </section>
     </div>

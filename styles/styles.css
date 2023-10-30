@@ -252,10 +252,10 @@ body {
     align-items: normal;
     height: 100px;
   }
-  .nav-link {
+  header .nav-link {
     background-color: #9CC5A1;
   }
-  .logo__marca {
+  header .logo__marca {
     width: auto;
     height: 60px !important;
     margin-left: 20px !important;
@@ -264,7 +264,7 @@ body {
   main {
     background-color: white;
   }
-  .grid__recetas {
+  main .grid__recetas {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
@@ -272,7 +272,7 @@ body {
     row-gap: 5px;
     margin: 0 0px 0 0px;
   }
-  .video {
+  main .video {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -281,7 +281,7 @@ body {
     color: #9CC5A1;
     margin: 0px 0px 0px 0px;
   }
-  .video__inicio {
+  main .video .video__inicio {
     padding-bottom: 20px;
     width: 300px !important;
     height: 250px !important;

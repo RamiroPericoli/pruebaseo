@@ -6,59 +6,48 @@
         justify-content: space-around;
         align-items: normal;
         height: 100px;
-    }
-
-
-    .nav-link {
-        background-color: #9CC5A1;
-
-    }
-    .logo__marca {
-        width: auto;
-        height: 60px !important;
-        margin-left: 20px !important;
-        margin-top: 20px;
-    }
-
+        .nav-link {
+            background-color: #9CC5A1;
+        }
+                .logo__marca {
+            width: auto;
+            height: 60px !important;
+            margin-left: 20px !important;
+            margin-top: 20px;
+        }    }
     main {
         background-color: white;
 
+        .grid__recetas {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr;
+            column-gap: 0px;
+            row-gap: 5px;
+            margin: 0 0px 0 0px;
+        }
+        .video {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-style: solid;
+            flex-wrap: nowrap;
+            color: #9CC5A1;
+            margin: 0px 00px 0px 000px;
+    
+            .video__inicio {
+                padding-bottom: 20px;
+                width: 300px !important;
+                height: 250px !important;
+            }
+        }
     }
-
-    .grid__recetas {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-        column-gap: 0px;
-        row-gap: 5px;
-        margin: 0 0px 0 0px;
-    }
-
-    .video {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        border-style: solid;
-        flex-wrap: nowrap;
-        color: #9CC5A1;
-        margin: 0px 00px 0px 000px;
-
-    }
-
-    .video__inicio {
-        padding-bottom: 20px;
-        width: 300px !important;
-        height: 250px !important;
-    }
-
     .redes-sociales {
         justify-content: space-around;
     }
-
     .texto-footer {
         color: black;
     }
-
     /* Media querys paginia Recetas */
     .container {
         padding-right: 0px;
@@ -66,24 +55,18 @@
         margin-left: 0px;
         margin-right: 0px;
     }
-
     .recetas__varias {
         grid-template-columns: 1fr;
         background: linear-gradient(#d8f7dc, #83a587)
     }
-
     .cards__recetas__ingredientes__1 {
         justify-content: none;
         margin-left: 10px;
-
     }
-
     .cards__recetas__instrucciones__1 {
         margin-left: 10px;
         margin-right: 5px;
-
     }
-
     /* Media querys paginia planifica */
     .momento__receta {
         display: block;
@@ -91,14 +74,11 @@
         padding: 20px 50px 20px 50px;
         margin: 20px;
         text-align: center;
-
         .card {
             background-color: #d8f7dc;
             margin-top: 20px;
         }
-
     }
-
     .main-nosotros {
         display: block;
         justify-content: space-between;
@@ -113,7 +93,6 @@
     .tamanio__maps {
         width: 300px !important;
         height: 300px !important;
-
     }
 
     .foto-nosotros {
@@ -121,8 +100,6 @@
         height: auto !important;
     }
 }
-
-
 @media (min-width: 481px) and (max-width: 750px) {
     .video {
         display: flex;
@@ -132,7 +109,6 @@
         flex-wrap: nowrap;
         color: #9CC5A1;
         margin: 0px 0px 0px 0px;
-
     }
 
     .video__inicio {
@@ -140,7 +116,6 @@
         width: 450px !important;
         height: 400px !important;
     }
-
     .grid__recetas {
         display: grid;
         grid-template-columns: 1fr;
@@ -149,51 +124,39 @@
         row-gap: 5px;
         margin: 0 0px 0 0px;
     }
-
     .nav-link {
         background-color: #9CC5A1;
-
     }
-
     .d-flex {
         display: none !important;
     }
-
     header {
         background-color: white;
         justify-content: space-around;
         align-items: normal;
         height: 100px;
     }
-
     .container {
         padding-right: 0px;
         padding-left: 0px;
         margin-left: 0px;
         margin-right: 0px;
     }
-
     .recetas__varias {
         grid-template-columns: 1fr;
         background: linear-gradient(#d8f7dc, #83a587)
     }
-
     .cards__recetas__ingredientes__1 {
         justify-content: none;
         margin-left: 10px;
-
     }
-
     .cards__recetas__instrucciones__1 {
         margin-left: 10px;
         margin-right: 5px;
-
     }
-
     .main-nosotros {
         display: block;
     }
-
     .foto-nosotros {
         max-width: 100% !important;
         height: auto !important;
@@ -206,15 +169,7 @@
             margin-top: 15px;
         }
     }
-
 }
-
-
-
-
-
-
-
 @media (min-width: 750px) and (max-width: 1127px) {
     .video {
         display: flex;
@@ -224,36 +179,27 @@
         flex-wrap: nowrap;
         color: #9CC5A1;
         margin: 0px 0px 0px 0px;
-
     }
-
     .video__inicio {
         padding-bottom: 20px;
         width: 700px !important;
         height: 400px !important;
     }
-
     .recetas__varias {
         grid-template-columns: 1fr;
         background: linear-gradient(#d8f7dc, #83a587)
     }
-
     .cards__recetas__ingredientes__1 {
         justify-content: none;
         margin-left: 10px;
-
     }
-
     .cards__recetas__instrucciones__1 {
         margin-left: 10px;
         margin-right: 5px;
-
     }
-
     .main-nosotros {
         display: block;
     }
-
     .foto-nosotros {
         max-width: 100% !important;
         height: auto !important;
@@ -263,7 +209,6 @@
     }
     .nav-link {
         background-color: #9CC5A1;
-
     }
     .momento__receta{
         display: grid;
@@ -272,5 +217,4 @@
             margin-top: 15px;
         }
     }
-
 }
